@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DesignPatterns.Infraestructure.DependencyInjection;
 
 namespace DesignPatterns
 {
@@ -24,7 +25,9 @@ namespace DesignPatterns
         public void ConfigureServices(IServiceCollection services)
         {
 
+            var dependencyInjection = new ServicesConfiguration();
             services.AddControllersWithViews();
+            dependencyInjection.ConfigureServices(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

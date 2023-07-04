@@ -16,9 +16,9 @@ namespace DesignPatterns.Controllers
 
         private readonly IVehicleRepository _vehicleRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IVehicleRepository vehicleRepository,ILogger<HomeController> logger)
         {
-            _vehicleRepository = new MyVehiclesRepository();
+            _vehicleRepository = vehicleRepository;
             _logger = logger;
         }
 
