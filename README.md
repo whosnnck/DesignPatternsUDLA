@@ -1,6 +1,6 @@
 # PATRONES DE DISEÑO
 ## TALLER EN CLASE
-## PROBLEMATICA
+### PROBLEMATICA
 
 Pepito es un Ingeniero de Software Junior en Codificando Con Patrones Cía. Ltda. Se le ha encargado la tarea de completar los requerimientos funcionales del aplicativo de automóviles al que la empresa da soporte. 
 
@@ -23,7 +23,7 @@ Los requisitos son los siguientes:
 
  ## Solucion
  
-Patrón Singleton
+### Patrón Singleton
 El patrón Singleton se utiliza para garantizar que una clase tenga una única instancia y proporciona un punto global de acceso a esa instancia. Esto es útil cuando exactamente una instancia de una clase es necesaria para coordinar acciones en todo el sistema.
 
 Cómo funciona:
@@ -34,7 +34,7 @@ Cómo funciona:
 Estructura del Patrón Singleton
 
 
-Patrón Builder
+### Patrón Builder
 El patrón Builder es un patrón creacional que se utiliza para construir un objeto complejo paso a paso. Permite construir diferentes representaciones de un objeto utilizando el mismo proceso de construcción. Este patrón se centra en la construcción de un producto complejo paso a paso. Es útil cuando la construcción de un objeto es complicada, y se desea tener control sobre cada paso del proceso.
 
 
@@ -47,7 +47,7 @@ Cómo funciona:
 Estructura del Patrón Builder
 
 
-Patrón Factory Method
+### Patrón Factory Method
 El patrón de diseño Factory Method se utiliza cuando una clase no puede anticipar la clase de objetos que debe crear. En lugar de crear directamente un objeto, delega la responsabilidad a sus subclases. Este patrón define una interfaz para crear un objeto, pero deja que las subclases alteren el tipo de objetos que se crearán. Es un patrón creacional que proporciona una interfaz para crear instancias de una clase, pero permite a las subclases alterar el tipo de instancias que se crearán.
 
 
@@ -59,6 +59,6 @@ Cómo funciona:
 Estructura del Patrón Facthory Method
 
 
-Referencia
+## Referencia
 - https://refactoring.guru/design-patterns
 
