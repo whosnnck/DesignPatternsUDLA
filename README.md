@@ -20,7 +20,7 @@ Los requisitos son los siguientes:
 
   - Modelo: Escape
  
-  Patrón Singleton
+Patrón Singleton
 El patrón Singleton se utiliza para garantizar que una clase tenga una única instancia y proporciona un punto global de acceso a esa instancia. Esto es útil cuando exactamente una instancia de una clase es necesaria para coordinar acciones en todo el sistema.
 
 Cómo funciona:
@@ -41,9 +41,9 @@ Builder: Define una interfaz para construir las partes del producto. Tiene méto
 ConcreteBuilder: Implementa la interfaz del Builder y construye las partes específicas del producto. Conoce los detalles de implementación y construcción del producto.
 Producto: El objeto complejo que se está construyendo. Puede tener varias partes y características.
 ![image](https://github.com/whosnnck/DesignPatternsUDLA/assets/131733484/c6351451-9399-4441-be0d-05398dba387e)
-
-
 Estructura del Patrón Builder
+
+
 Patrón Factory Method
 El patrón de diseño Factory Method se utiliza cuando una clase no puede anticipar la clase de objetos que debe crear. En lugar de crear directamente un objeto, delega la responsabilidad a sus subclases. Este patrón define una interfaz para crear un objeto, pero deja que las subclases alteren el tipo de objetos que se crearán. Es un patrón creacional que proporciona una interfaz para crear instancias de una clase, pero permite a las subclases alterar el tipo de instancias que se crearán.
 
@@ -53,8 +53,8 @@ Interfaz o Clase Abstracta: Define una interfaz o clase abstracta que declara el
 Subclases: Implementan el Factory Method para crear instancias concretas del producto. Cada subclase puede proporcionar una implementación diferente del Factory Method, creando así diferentes variantes del producto.
 Cliente: Utiliza el Factory Method para crear instancias del producto sin conocer la clase concreta del producto. Esto permite que el cliente sea independiente de las clases concretas y hace que el código sea más flexible y fácil de extender.
 ![image](https://github.com/whosnnck/DesignPatternsUDLA/assets/131733484/6d9f3e67-cdba-4606-b164-fe53ce449638)
-
 Estructura del Patrón Facthory Method
+
 
 Referencia
 - https://refactoring.guru/design-patterns
