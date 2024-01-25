@@ -1,6 +1,7 @@
-#PATRONES DE DISEÑO
-#TALLER EN CLASE
-#PROBLEMATICA
+# PATRONES DE DISEÑO
+## TALLER EN CLASE
+## PROBLEMATICA
+
 Pepito es un Ingeniero de Software Junior en Codificando Con Patrones Cía. Ltda. Se le ha encargado la tarea de completar los requerimientos funcionales del aplicativo de automóviles al que la empresa da soporte. 
 
 Los requisitos son los siguientes: 
@@ -19,6 +20,8 @@ Los requisitos son los siguientes:
   - Marca: Ford 
 
   - Modelo: Escape
+
+ ## Solucion
  
 Patrón Singleton
 El patrón Singleton se utiliza para garantizar que una clase tenga una única instancia y proporciona un punto global de acceso a esa instancia. Esto es útil cuando exactamente una instancia de una clase es necesaria para coordinar acciones en todo el sistema.
@@ -36,10 +39,10 @@ El patrón Builder es un patrón creacional que se utiliza para construir un obj
 
 
 Cómo funciona:
-Director: Clase que coordina el proceso de construcción utilizando un objeto Builder. El Director no sabe cómo se construye el producto, solo sabe cómo utilizar el Builder para construirlo.
-Builder: Define una interfaz para construir las partes del producto. Tiene métodos para construir cada parte del producto, como construir la base, las paredes y el techo.
-ConcreteBuilder: Implementa la interfaz del Builder y construye las partes específicas del producto. Conoce los detalles de implementación y construcción del producto.
-Producto: El objeto complejo que se está construyendo. Puede tener varias partes y características.
+- Director: Clase que coordina el proceso de construcción utilizando un objeto Builder. El Director no sabe cómo se construye el producto, solo sabe cómo utilizar el Builder para construirlo.
+- Builder: Define una interfaz para construir las partes del producto. Tiene métodos para construir cada parte del producto, como construir la base, las paredes y el techo.
+- ConcreteBuilder: Implementa la interfaz del Builder y construye las partes específicas del producto. Conoce los detalles de implementación y construcción del producto.
+- Producto: El objeto complejo que se está construyendo. Puede tener varias partes y características.
 ![image](https://github.com/whosnnck/DesignPatternsUDLA/assets/131733484/c6351451-9399-4441-be0d-05398dba387e)
 Estructura del Patrón Builder
 
@@ -49,9 +52,9 @@ El patrón de diseño Factory Method se utiliza cuando una clase no puede antici
 
 
 Cómo funciona:
-Interfaz o Clase Abstracta: Define una interfaz o clase abstracta que declara el método abstracto (Factory Method) para crear un producto. Este método puede contener una implementación básica compartida por todas las subclases.
-Subclases: Implementan el Factory Method para crear instancias concretas del producto. Cada subclase puede proporcionar una implementación diferente del Factory Method, creando así diferentes variantes del producto.
-Cliente: Utiliza el Factory Method para crear instancias del producto sin conocer la clase concreta del producto. Esto permite que el cliente sea independiente de las clases concretas y hace que el código sea más flexible y fácil de extender.
+- Interfaz o Clase Abstracta: Define una interfaz o clase abstracta que declara el método abstracto (Factory Method) para crear un producto. Este método puede contener una implementación básica compartida por todas las subclases.
+- Subclases: Implementan el Factory Method para crear instancias concretas del producto. Cada subclase puede proporcionar una implementación diferente del Factory Method, creando así diferentes variantes del producto.
+- Cliente: Utiliza el Factory Method para crear instancias del producto sin conocer la clase concreta del producto. Esto permite que el cliente sea independiente de las clases concretas y hace que el código sea más flexible y fácil de extender.
 ![image](https://github.com/whosnnck/DesignPatternsUDLA/assets/131733484/6d9f3e67-cdba-4606-b164-fe53ce449638)
 Estructura del Patrón Facthory Method
 
