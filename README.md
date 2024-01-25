@@ -24,9 +24,9 @@ Patrón Singleton
 El patrón Singleton se utiliza para garantizar que una clase tenga una única instancia y proporciona un punto global de acceso a esa instancia. Esto es útil cuando exactamente una instancia de una clase es necesaria para coordinar acciones en todo el sistema.
 
 Cómo funciona:
-Constructor Privado: La clase Singleton tiene un constructor privado para evitar que se creen instancias directamente desde fuera de la clase.
-Instancia Única: La clase tiene una variable privada que almacena la única instancia de la clase.
-Método Estático de Acceso: Proporciona un método estático que actúa como punto de acceso global a la instancia única de la clase. Si la instancia aún no existe, se crea; de lo contrario, se devuelve la instancia existente.
+- Constructor Privado: La clase Singleton tiene un constructor privado para evitar que se creen instancias directamente desde fuera de la clase.
+- Instancia Única: La clase tiene una variable privada que almacena la única instancia de la clase.
+- Método Estático de Acceso: Proporciona un método estático que actúa como punto de acceso global a la instancia única de la clase. Si la instancia aún no existe, se crea; de lo contrario, se devuelve la instancia existente.
 ![image](https://github.com/whosnnck/DesignPatternsUDLA/assets/131733484/265b0351-eff4-4612-be47-f245c9b30f0d)
 Estructura del Patrón Singleton
 
